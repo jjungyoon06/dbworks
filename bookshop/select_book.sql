@@ -30,6 +30,12 @@ FROM book;
 SELECT DISTINCT publisher FROM book; 
 
 -- 조건절 WHERE 사용
+
+-- 책번호가 5번인 도서를 검색하시오
+SELECT *
+FROM book
+WHERE bookid <> 5;
+
 -- 가격이 20000원 미만인 도서를 검색
 SELECT *
 FROM book
